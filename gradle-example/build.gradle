@@ -20,13 +20,13 @@ publishing {
 
   repositories {
     maven {
-      url "artifactregistry://us-central1-maven.pkg.dev/galvanic-kit-303008/quickstart-maven-repo"
+      url "artifactregistry://us-central1-maven.pkg.dev/galvanic-kit-303008/secondtest"
     }
   }
 }
 repositories {
   maven {
-    url "artifactregistry://us-central1-maven.pkg.dev/galvanic-kit-303008/quickstart-maven-repo"
+    url "artifactregistry://us-central1-maven.pkg.dev/galvanic-kit-303008/secondtest"
   }
 }
 
