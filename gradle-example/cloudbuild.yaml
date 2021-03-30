@@ -11,6 +11,3 @@ steps:
     entrypoint: gradle
     args: ["publish"]
     dir: gradle-example  
-  - name: gcr.io/cloud-builders/docker
-    args: ["build", "-t", "gcr.io/$PROJECT_ID/hello-spring", "--build-arg=JAR_FILE=build/libs/hellospring-1.0.0.jar", "."]
-images: ["gcr.io/$PROJECT_ID/hello-spring"]
